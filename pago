@@ -1,0 +1,8 @@
+POST /checkout HTTP/1.1
+Accept: application/vnd.com.payclip.v2+json
+Content-Type: application/json
+X-Api-Key: Basic YjA0MWYxZTQtNDkyYy00MjYxLTg4NDAtY2M3NmIxZWZkNTY2OmRlNmU5YTk1LTljMDgtNGVlZC1iZDZhLTBlYjQ2ZTQ3NTk1Nw==
+Host: api-gw.payclip.com
+Content-Length: 304
+
+{"amount":100.5,"currency":"MXN","purchase_description":"boleto","redirection_url":{"success":"https://my-website.com/redirection/success?me_reference_id=OID123456789","error":"https://my-website.com/redirection/error?me_reference_id=OID123456789","default":"https://my-website.com/redirection/default"}}
